@@ -870,6 +870,11 @@ h2.title {
 	font-weight: 700;
 }
 
+.table-spec td {
+  color: #fff;
+  text-align: left;
+  padding-left: 5%;
+}
 
 .productinfo p{
   font-family: 'Roboto', sans-serif;
@@ -2515,5 +2520,3 @@ h2.title {
 .contact-info .social-networks ul li a:hover{
   color: #FE980F;
 }
-
-
