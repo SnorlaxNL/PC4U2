@@ -872,7 +872,7 @@ h2.title {
 
 .scroll {
   height: 200px;
-  overflow: auto;
+  overflow: scroll;
 }
 .table-spec td {
   color: #fff;
