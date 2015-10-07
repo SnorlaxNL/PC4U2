@@ -870,6 +870,10 @@ h2.title {
 	font-weight: 700;
 }
 
+.scroll {
+  height: 200px;
+  overflow: auto;
+}
 .table-spec td {
   color: #fff;
   text-align: left;
