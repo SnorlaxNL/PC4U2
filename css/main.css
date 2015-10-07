@@ -874,6 +874,7 @@ h2.title {
   color: #fff;
   text-align: left;
   padding-left: 5%;
+  border-bottom: 1px #fff dashed;
 }
 
 .productinfo p{
