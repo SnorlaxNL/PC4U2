@@ -112,14 +112,14 @@
 							<ul class="nav navbar-nav collapse navbar-collapse">
 								<li><a href="index.html" class="active">Home</a></li>
 								<li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
-                                    <ul role="menu" class="sub-menu">
-                                        <li><a href="">Producten</a></li> <!-- shop.html -->
-										<li><a href="">Product beschrijving</a></li>  <!-- product-details.html -->
-										<li><a href="checkout.html">Afrekenen</a></li> 
-										<li><a href="cart.html">Winkelmand</a></li> 
+																		<ul role="menu" class="sub-menu">
+																				<li><a href="">Products</a></li> <!-- shop.html -->
+										<li><a href="">Product Details</a></li>  <!-- product-details.html -->
+										<li><a href="checkout.html">Checkout</a></li> 
+										<li><a href="cart.html">Cart</a></li> 
 										<li><a href="login.html">Login</a></li> 
-                                    </ul>
-                                </li>
+																		</ul>
+																</li>
 								<li><a href="contact-us.html">Contact</a></li>
 							</ul>
 						</div>
@@ -160,11 +160,11 @@
 								<a href=""><img src="images/cart/one.png" alt=""></a>
 							</td>
 							<td class="cart_description">
-								<h4><a href="">Colorblock Scuba</a></h4>
-								<p>Web ID: 1089772</p>
+								<h4><a href="">Test 1</a></h4>
+								<p>Nummer: 1089772</p>
 							</td>
 							<td class="cart_price">
-								<p>$59</p>
+								<p>€100</p>
 							</td>
 							<td class="cart_quantity">
 								<div class="cart_quantity_button">
@@ -174,7 +174,7 @@
 								</div>
 							</td>
 							<td class="cart_total">
-								<p class="cart_total_price">$59</p>
+								<p class="cart_total_price">€100</p>
 							</td>
 							<td class="cart_delete">
 								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
@@ -186,11 +186,11 @@
 								<a href=""><img src="images/cart/two.png" alt=""></a>
 							</td>
 							<td class="cart_description">
-								<h4><a href="">Colorblock Scuba</a></h4>
-								<p>Web ID: 1089772</p>
+								<h4><a href="">Test 2</a></h4>
+								<p>Nummer: 1089772</p>
 							</td>
 							<td class="cart_price">
-								<p>$59</p>
+								<p>€100</p>
 							</td>
 							<td class="cart_quantity">
 								<div class="cart_quantity_button">
@@ -200,7 +200,7 @@
 								</div>
 							</td>
 							<td class="cart_total">
-								<p class="cart_total_price">$59</p>
+								<p class="cart_total_price">€100</p>
 							</td>
 							<td class="cart_delete">
 								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
@@ -211,11 +211,11 @@
 								<a href=""><img src="images/cart/three.png" alt=""></a>
 							</td>
 							<td class="cart_description">
-								<h4><a href="">Colorblock Scuba</a></h4>
+								<h4><a href="">test 3</a></h4>
 								<p>Web ID: 1089772</p>
 							</td>
 							<td class="cart_price">
-								<p>$59</p>
+								<p>€100</p>
 							</td>
 							<td class="cart_quantity">
 								<div class="cart_quantity_button">
@@ -225,7 +225,7 @@
 								</div>
 							</td>
 							<td class="cart_total">
-								<p class="cart_total_price">$59</p>
+								<p class="cart_total_price">€100</p>
 							</td>
 							<td class="cart_delete">
 								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
@@ -240,8 +240,8 @@
 	<section id="do_action">
 		<div class="container">
 			<div class="heading">
-				<h3>What would you like to do next?</h3>
-				<p>Choose if you have a discount code or reward points you want to use or would like to estimate your delivery cost.</p>
+				<h3>Wat wil je nu doen?</h3>
+				<p>Kies of je een kortingscode hebt of niet</p>
 			</div>
 			<div class="row">
 				<div class="col-sm-6">
@@ -249,21 +249,22 @@
 						<ul class="user_option">
 							<li>
 								<input type="checkbox">
-								<label>Use Coupon Code</label>
+								<label>Gebruik kortingscode</label>
 							</li>
 							<li>
 								<input type="checkbox">
-								<label>Use Gift Voucher</label>
+								<label>Giftcard</label>
 							</li>
 							<li>
 								<input type="checkbox">
-								<label>Estimate Shipping & Taxes</label>
+								<label>Gemakkelijk betalen</label>
 							</li>
 						</ul>
 						<ul class="user_info">
 							<li class="single_field">
-								<label>Country:</label>
-								<select>
+								<label>Land:</label>
+								<select>	
+									<option>Nederland</option>
 									<option>United States</option>
 									<option>Bangladesh</option>
 									<option>UK</option>
@@ -271,43 +272,43 @@
 									<option>Pakistan</option>
 									<option>Ucrane</option>
 									<option>Canada</option>
-									<option>Dubai</option>
+								
 								</select>
 								
 							</li>
 							<li class="single_field">
-								<label>Region / State:</label>
+								<label>Plaats:</label>
 								<select>
-									<option>Select</option>
+									<option>Nederland</option>
 									<option>Dhaka</option>
 									<option>London</option>
 									<option>Dillih</option>
 									<option>Lahore</option>
 									<option>Alaska</option>
 									<option>Canada</option>
-									<option>Dubai</option>
+									
 								</select>
 							
 							</li>
 							<li class="single_field zip-field">
-								<label>Zip Code:</label>
+								<label>Kortings code:</label>
 								<input type="text">
 							</li>
 						</ul>
-						<a class="btn btn-default update" href="">Get Quotes</a>
-						<a class="btn btn-default check_out" href="">Continue</a>
+						<a class="btn btn-default update" href="">Update</a>
+						<a class="btn btn-default check_out" href="">Verder</a>
 					</div>
 				</div>
 				<div class="col-sm-6">
 					<div class="total_area">
 						<ul>
-							<li>Cart Sub Total <span>$59</span></li>
-							<li>Eco Tax <span>$2</span></li>
-							<li>Shipping Cost <span>Free</span></li>
-							<li>Total <span>$61</span></li>
+							<li>Winkelmand totaal <span>$59</span></li>
+							<li>Extra kosten <span>$2</span></li>
+							<li>Verzend kosten <span>Free</span></li>
+							<li>Totaal <span>$61</span></li>
 						</ul>
 							<a class="btn btn-default update" href="">Update</a>
-							<a class="btn btn-default check_out" href="">Check Out</a>
+							<a class="btn btn-default check_out" href="">Betalen</a>
 					</div>
 				</div>
 			</div>
@@ -315,7 +316,7 @@
 	</section><!--/#do_action-->
 
 	
-	<footer id="footer"><!--Footer-->
+		<footer id="footer"><!--Footer-->
 		<div class="footer-top">
 			<div class="container">
 				<div class="row">
@@ -401,7 +402,6 @@
 		</div>
 		
 	</footer><!--/Footer-->
-	
 
 
     <script src="js/jquery.js"></script>
